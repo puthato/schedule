@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Sign Up</title>
+        <h1>Tell us more about yourself!</h1>
+    </head>
+    <body>
+        <fieldset>
+            <legend>Contact Details></legend>
+            <label>First Name: <br />
+            <input type="text" name="First name"></label><br/>
+            <label>Last Name: <br/>
+            <input type="text" name="Last Name"></label><br/>
+            <label>Email: <br/>
+            <input type="text" name="email"></label><br/>
+            <label>Contact Number: <br/>
+            <input type="text" name="contact"></label>
+            <div><button type="submit">Submit</button> </div>
+        </fieldset>
+    </body>
+</html>
