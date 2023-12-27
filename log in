@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Log In</title>
+        <h1>Survey</h1>
+
+    </head>
+    <body>
+        <form action="http://www.example.com/profile.php">
+            <p>Please select your favorite genre:
+                <br />
+                <input type="radio" name="genre" value="Rock" checked="checked"/>Rock
+                <input type="radio" name="genre" value="Pop" checked="checked"/>Pop
+                <input type="radio" name="genre" value="Jazz" checked="checked"/> Jazz
+                <input type="radio" name="genre" value="OPM" checked="checked"/>OPM
+                <p>if others please specify here:</p>
+                <form action="http://www.example.com/comments.php">
+                    <textarea name="comments" cols="20" rows="1">Enter here</textarea>
+                </form>
+                <form action="http://www.example.com/profile.php">
+                    <p>Please select your Music Platform
+                        <br />
+                        <input type="checkbox" name="service" value="iTunes" checked="checked"/>iTunes
+                        <input type="checkbox" name="service" value="Spotify" checked="checked"/>Spotify
+                        <input type="checkbox" name="service" value="Illegal" checked="checked"/>Illegal site
+                        
+                    </p>
+                </form>
+                <form action="http://www.example.com/profile.php">
+                    <p>What device do you use for listening?</p>
+                    <select name="devices">
+                        <option value="ipod">iPod</option>
+                        <option value="phone">Phone</option>
+                        <option value="laptop">Laptop</option>
+                        <option value="desktop">Desktop</option>
+                    </select>
+                </form>
+        </form>
+    </body>
+</html>
